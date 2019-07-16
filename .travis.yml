@@ -9,7 +9,7 @@ branches:
   only:
     - master
     - release
-    - experimental
+    - branch_checker
 
 install:
   - pip install -r requirements.txt
