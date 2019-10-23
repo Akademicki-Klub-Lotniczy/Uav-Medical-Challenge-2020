@@ -32,3 +32,25 @@ Code will be merged after review from two different persons.
 That's all for today ;)
 
 Stay tuned :DDD
+
+
+## Transmission
+
+`gstreamer` + camera -> `.ts` file
+
+(find the right muxrate)
+
+`.ts` file -> `gnuradio`
+
+
+## Mission Control GUI
+
+Kivy/other app for displaying the shelter pictures and managing other flight-related info/actions
+
+# NO JSONs PLS - too slow
+
+## Robot commands protocol
+* Data via ethernet + some sort of robot simulation (just printing 'driving forward' etc)
+
+## Drone commands protocol
+* Progressive png - for sending shelter pics

@@ -1,0 +1,1 @@
+gst-launch-1.0 v4l2src ! tsparse set-timestamps=true ! video/mpegts ! tsdemux ! video/x-h264 ! h264parse disable-passthrough=true ! rtph264pay ! udpsink -v host=127.0.0.1 port=9999
