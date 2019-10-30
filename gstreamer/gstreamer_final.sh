@@ -6,7 +6,7 @@
 
 
 # check the latency parameter of the muxer! 
-
+# h265
 
 gst-launch-1.0 -e \
     v4l2src ! videoconvert ! x264enc bitrate=500 pass=cbr psy-tune=1 tune=zerolatency  !  h264parse !  \

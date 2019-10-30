@@ -54,3 +54,14 @@ Kivy/other app for displaying the shelter pictures and managing other flight-rel
 
 ## Drone commands protocol
 * Progressive png - for sending shelter pics
+
+
+### Zadania dla nowych
+* OpenCV/Yolo/ML building recognition
+* Mapowanie terenu
+* Tracker
+* Protokół do słania danych ramkami (`struct`, `udp`)
+* Kivy - GUI tool do drona
+* Łazik, kamera, gimbal
+* Analiza kodu SAE
+* MavLink
