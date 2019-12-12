@@ -18,4 +18,4 @@
 
 #gst-launch-1.0 -e v4l2src ! videoconvert ! x264enc bitrate=100 ! mpegtsmux ! filesink location=bla.ts
 
-raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 1000000 -o - | gst-launch-1.0 -v fdsrc fd=0 ! h264parse ! mpegtsmux ! filesink location=bla.ts
+raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 1000000 -o - | gst-launch-1.0 -e -v fdsrc fd=0 ! h264parse ! mpegtsmux ! filesink location=bla.ts
