@@ -1,7 +1,5 @@
 # Uav Medical Challenge 2020
-Project for UAV Medical Rescue Challenge Australia 2020
 
-Ok, guys some more info for you ;)
 
 ### Git
 
