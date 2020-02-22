@@ -1,6 +1,6 @@
 from pymavlink import mavutil
 import unittest
-from .utils.ardupilot_sitl_docker.sitl import SitlDockerHelper
+from utils.ardupilot_sitl_docker.sitl import SitlDockerHelper
 
 
 
@@ -19,3 +19,5 @@ class SitlConnectionTests(unittest.TestCase):
         assert result is not None
         
     
+if __name__ == '__main__':
+    unittest.main()
