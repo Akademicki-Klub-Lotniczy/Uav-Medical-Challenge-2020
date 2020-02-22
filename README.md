@@ -1,4 +1,5 @@
 # Uav Medical Challenge 2020
+[![Build Status](https://travis-ci.org/Akademicki-Klub-Lotniczy/Uav-Medical-Challenge-2020.svg?branch=master)](https://travis-ci.org/Akademicki-Klub-Lotniczy/Uav-Medical-Challenge-2020)
 
 ### Setup
 
