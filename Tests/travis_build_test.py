@@ -1,6 +1,7 @@
 import unittest
 
-# Default test cases, used for testing
+# Default test cases, not used for anything
+'''
 class TestCasesOnlyForCheckingBuild(unittest.TestCase):
 
     def test_upper(self):
@@ -17,3 +18,4 @@ class TestCasesOnlyForCheckingBuild(unittest.TestCase):
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)
+'''
