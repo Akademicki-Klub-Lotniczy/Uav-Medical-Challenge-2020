@@ -1,6 +1,6 @@
 from pymavlink import mavutil
 import unittest
-from ..utils.ardupilot_sitl_docker.sitl import SitlDockerHelper
+from .utils.ardupilot_sitl_docker.sitl import SitlDockerHelper
 
 
 
