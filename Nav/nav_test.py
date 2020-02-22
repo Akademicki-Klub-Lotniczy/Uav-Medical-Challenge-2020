@@ -13,7 +13,6 @@ class SitlConnectionTests(unittest.TestCase):
         self.runner.stop()
     
     def test_sitl_connectivity(self):
-        
         the_connection = mavutil.mavlink_connection('udpin:0.0.0.0:14550')
         result = the_connection.wait_heartbeat(timeout=10)
         

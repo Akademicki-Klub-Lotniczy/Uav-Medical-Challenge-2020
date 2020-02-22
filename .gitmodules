@@ -1,3 +1,3 @@
 [submodule "utils/ardupilot_sitl_docker"]
 	path = utils/ardupilot_sitl_docker
-	url = git@github.com:Akademicki-Klub-Lotniczy/ardupilot-sitl-docker.git
+	url = https://github.com/Akademicki-Klub-Lotniczy/ardupilot-sitl-docker.git
