@@ -20,4 +20,4 @@ branches:
 install:
   - pip install -r requirements.txt
 
-script: pytest -k "_test" && flake8
+script: pytest -k "_test" # && flake8

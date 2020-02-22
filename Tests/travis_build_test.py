@@ -1,6 +1,6 @@
 import unittest
 
-
+# Default test cases, used for testing
 class TestCasesOnlyForCheckingBuild(unittest.TestCase):
 
     def test_upper(self):
