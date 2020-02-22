@@ -3,6 +3,12 @@
 
 ### Git
 
+#### Cloning
+
+Since we're using git submodules, you should clone the repo like this:
+`git clone --recurse-submodules git@github.com:Akademicki-Klub-Lotniczy/Uav-Medical-Challenge-2020.git`
+
+#### Workflow
 Procedure will be quite easy:
 - create branch for yourself only from pure origin master so:
     * `git checkout master`
