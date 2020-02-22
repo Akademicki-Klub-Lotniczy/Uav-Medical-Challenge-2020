@@ -22,5 +22,4 @@ install:
 
 
 script:
-  - python nav_test.py
-  # - pytest -k "_test" # && flake8
+  - python -m pytest -k "_test" # && flake8
