@@ -24,7 +24,7 @@ command below and then write your code.\
 Code without tests will not be merged!!!\
 Our CI agent (Travis) runs tests with "test_" in the name of .py file
 So to check if your changes pass Travis run:\
-pytest -k "test_" && flake8
+`pytest -k "test_" && flake8`
 
 ### Merging\
 If you think that your changes are ready to merge, run tests ;) and create a pull request.
