@@ -20,19 +20,15 @@ There will be ban for commiting strict to the master ;)
 
 ### Tests/TDD
 I would like to run code in Test Driven Development way. Your job is to at first write tests for your changes, check it with 
-command below and then write your code.\
-Code without tests will not be merged!!!\
+command below and then write your code.
+Code without tests will not be merged!!!
 Our CI agent (Travis) runs tests with "test_" in the name of .py file
-So to check if your changes pass Travis run:\
+So to check if your changes pass Travis run:
 `pytest -k "test_" && flake8`
 
-### Merging\
+### Merging
 If you think that your changes are ready to merge, run tests ;) and create a pull request.
 Code will be merged after review from two different persons.
-
-That's all for today ;)
-
-Stay tuned :DDD
 
 
 ## Transmission
