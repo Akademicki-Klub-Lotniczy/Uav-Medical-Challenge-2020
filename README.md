@@ -13,7 +13,7 @@ Since we're using git submodules, you should clone the repo like this:
 
 What you'll need:
 
-* Linux
+* Arch Linux
 * Docker installed
 * Python3 installed
 
